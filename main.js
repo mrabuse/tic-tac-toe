@@ -68,9 +68,6 @@ let question = function () {
     board = generateBoard();
     console.log(board);
     
-    console.log(win);
-    console.log(playerOne);
-    console.log(playerTwo);
     if (win === true) {
         console.log(currentPlayer + ' wins!');
         return;
